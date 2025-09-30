@@ -22,7 +22,7 @@ body {
 
 .iloveyou {
   position: absolute;
-  top: 15%;
+  top: 5%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -35,6 +35,16 @@ body {
   font-size: 5.9vmin;
   opacity: 0;
   animation: fadeIn 3s ease forwards, glow 3s 3s ease-in-out infinite;
+}
+
+@media (max-width: 768px) {
+  .iloveyou {
+    top: 20%; /* altera apenas no celular/tablet */
+  }
+
+  .iloveyou h1 {
+    font-size: 7.3vmin; /* aumenta/diminui proporcional ao ecrã */
+  }
 }
 
 /* Efeito de aparecer suavemente */
