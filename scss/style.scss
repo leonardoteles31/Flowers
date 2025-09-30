@@ -21,6 +21,18 @@ body {
   padding: 50px 0px;
 }
 
+.iloveyou {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #fff;
+  font-size: 3vmin;
+  font-family: 'Cursive', 'Arial', sans-serif;
+  z-index: 999; /* garante que fique acima das flores */
+}
+
 .night {
   position: fixed;
   left: 50%;
